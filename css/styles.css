@@ -7,14 +7,35 @@ body {
 .container {
   max-width: 1000px;
   height: 40vh;
-
   display: flex;
   flex: 1;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-
-  color: lightblue;
+  color: #000;
   margin: 0 auto;
+
   border: 2px solid red;
+}
+
+/* Botones de Juego */
+.container__button {
+  width: 5em;
+  height: 5em;
+  border-radius: .5em;
+  font-size: 1.5em;
+  letter-spacing: .05em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+  transition: .3s;
+  cursor: pointer;
+
+  border: 2px solid red;
+}
+
+.container__button:hover {
+  background-color: #30a2f4;
+  box-shadow: 0 0 .2em #aef;
 }
