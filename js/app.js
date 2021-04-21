@@ -21,4 +21,6 @@ const startGame = (user) => {
 
   const resultNum = gameLogic[cpuLogic][user];
   const resultTxt = gameResults[resultNum];
+
+  writeDom(cpuSelect, userSelect, resultTxt);
 }
