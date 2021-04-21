@@ -1,6 +1,6 @@
 const writeDom = (us, cpu, res) => {
   const userTxt = document.getElementById('result__user');
-  userTxt.innerHTML = `User: ${us}`;
+  userTxt.innerHTML = `${userName}: ${us}`;
   const cpuTxt = document.getElementById('result__cpu');
   cpuTxt.innerHTML = `Cpu: ${cpu}`;
 
