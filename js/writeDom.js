@@ -5,5 +5,5 @@ const writeDom = (us, cpu, res) => {
   cpuTxt.innerHTML = `Cpu: ${cpu}`;
 
   const resultGame = document.getElementById('result__game');
-  resultGame.innerHTML = `<h2 class="result">Resultado: ${res}</h2>`;
+  resultGame.innerHTML = `<h2>Resultado: ${res}</h2>`;
 }
