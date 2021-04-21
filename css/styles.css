@@ -16,8 +16,6 @@ body {
   align-items: center;
   color: #000;
   margin: 0 auto;
-
-  border: 2px solid red;
 }
 
 /* Botones de Juego */
@@ -33,8 +31,6 @@ body {
   background-color: #ccc;
   transition: .3s;
   cursor: pointer;
-
-  border: 2px solid red;
 }
 
 .container__button:hover {
@@ -54,6 +50,4 @@ body {
   letter-spacing: .05em;
   color: #fff;
   text-shadow: .06em .06em .1em #2196f1;
-
-  border: 2px solid red;
 }
