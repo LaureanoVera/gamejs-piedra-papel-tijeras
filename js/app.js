@@ -15,7 +15,10 @@ const gameLogic = [
 
 const startGame = (user) => {
   const cpuLogic = Math.floor(Math.random() * 3);
-  const result = gameLogic[cpuLogic][user];
+  const cpuSelect = gameOptions[cpuLogic];
 
-  console.log(gameResults[result]);
+  const userSelect = gameOptions[user];
+
+  const resultNum = gameLogic[cpuLogic][user];
+  const resultTxt = gameResults[resultNum];
 }
